@@ -1,0 +1,20 @@
+.createButton button {
+  height: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.createButton:hover button {
+    background-color: rgb(1, 99, 190);
+}

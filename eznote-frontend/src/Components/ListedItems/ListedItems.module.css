@@ -1,0 +1,22 @@
+.listedItems {
+  color: white;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  transition: all 0.3 ease-in-out;
+  overflow: hidden;
+}
+
+ul.listedItems li {
+  font-size: 0.95rem;
+  padding-left: 4rem;
+}
+
+ul.hidden li:hover{
+  background-color: none;
+}
+
+ul.hidden li {
+  display: none;
+}

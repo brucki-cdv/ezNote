@@ -1,0 +1,10 @@
+.selectListItem {
+  list-style: none;
+  margin-bottom: 0.8em;
+  text-overflow: ellipsis;
+}
+
+.selectListItem span {
+  text-overflow: ellipsis;
+  width: 50px;
+}

@@ -1,0 +1,33 @@
+.contentWrapper {
+  height: 100vh;
+  width: 350px;
+  position: absolute;
+  background-color: var(--very-light-gray-color);
+  right: -360px;
+  z-index: 1000;
+  animation: slideToLeft 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contentWrapper.active {
+  animation: slideToRight 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideToRight {
+  0% {
+    right: -360px;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slideToLeft {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -360px;
+  }
+}

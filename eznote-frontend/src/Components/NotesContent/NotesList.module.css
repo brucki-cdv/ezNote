@@ -1,0 +1,10 @@
+#scrollableDiv {
+    height: 600px;
+    overflow: auto
+}
+
+@media only screen and (max-width: 400px) {
+    #scrollableDiv {
+      height: 450px;
+    }
+  }

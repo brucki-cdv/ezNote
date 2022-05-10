@@ -1,0 +1,5 @@
+.notesContentBody {
+  position: relative;
+  background-color: var(--light-gray-color);
+  height: 100vh;
+}

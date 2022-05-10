@@ -1,0 +1,11 @@
+.noContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--very-light-gray-color);
+  width: 55%;
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}

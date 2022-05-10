@@ -1,0 +1,13 @@
+.tag {
+  font-size: 0.7rem;
+  padding: 0.3rem;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.tag:hover::after{
+    content: "x";
+    margin-left: 0.3rem;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.notesContent {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--very-light-gray-color);
+}
+
+.notesContentIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.notesContentIcon:hover {
+  cursor: pointer;
+  background-color: var(--dark-gray-color);
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.backIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.backIcon:hover {
+  background-color: var(--dark-gray-color);
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 937px) {
+  .notesContent {
+    min-width: 120px;
+  }
+}

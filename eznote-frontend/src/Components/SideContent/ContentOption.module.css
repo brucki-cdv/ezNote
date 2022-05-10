@@ -1,0 +1,16 @@
+.contentOption {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  gap: 1rem;
+  padding: .9rem 2rem;
+}
+
+.contentOption .contentData {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentOption .contentData div:first-child{
+    font-size: .7rem;
+}

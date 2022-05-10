@@ -1,0 +1,36 @@
+.sidebarButton {
+  padding: 1rem;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+
+.sidebarButton:hover, sidebarButton:hover ul li {
+    background-color: var(--dark-gray-color);
+    color: white;
+}
+
+
+
+.sidebarButton ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.sidebarButton ul li {
+  color: var(--light-gray-color);
+  text-decoration: none;
+  list-style: none;
+}
+
+.sidebarButton ul li:first-child {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

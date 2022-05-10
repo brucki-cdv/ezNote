@@ -1,0 +1,9 @@
+.cardDetails {
+    display: flex;
+    flex-direction: row;
+    gap: .6rem;
+    align-items: baseline;
+    color: blue;
+    font-weight: 400;
+    flex-wrap: wrap;
+}

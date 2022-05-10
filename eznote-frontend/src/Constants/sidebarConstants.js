@@ -1,0 +1,10 @@
+export const TAGS_EXPAND = "TAGS_EXPAND";
+export const TAGS_HIDE = "TAGS_HIDE";
+export const NOTES_EXPAND = "NOTES_EXPAND";
+export const NOTES_HIDE = "NOTES_HIDE";
+export const STATUS_EXPAND = "STATUS_EXPAND";
+export const STATUS_HIDE = "STATUS_HIDE";
+export const SIDEBAR_RELOAD = "SIDEBAR_RELOAD";
+export const SIDEBAR_RESET_RELOAD = "SIDEBAR_RESET_RELOAD";
+export const SIDEBAR_HIDE = "SIDEBAR_HIDE";
+export const SIDEBAR_EXPAND = "SIDEBAR_EXPAND";

@@ -1,0 +1,9 @@
+export const SHOW_ALL_NOTES = "SHOW_ALL_NOTES";
+export const SHOW_BY_STATUS = "SHOW_BY_STATUS";
+export const SHOW_BY_TAG = "SHOW_BY_TAG";
+export const SHOW_BY_NOTEBOOK = "SHOW_BY_NOTEBOOK";
+export const NOTES_RELOAD = "NOTES_RELOAD";
+export const NOTES_RESET_RELOAD = "NOTES_RESET_RELOAD";
+export const ORDER_BY_DESC = "ORDER_BY_DESC";
+export const ORDER_BY_ASC = "ORDER_BY_ASC";
+export const SET_NOTE_ID = "SET_NOTE_ID";

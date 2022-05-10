@@ -1,0 +1,12 @@
+.editorHeader {
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .9rem;
+}
